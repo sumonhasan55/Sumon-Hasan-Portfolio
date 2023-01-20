@@ -1,0 +1,37 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item {
+    padding: auto;
+}
+.menu{
+padding-right: 0;
+}
+.logo{
+    width: 80%;
+}
+#cover{
+  background-image: url(/images/profile-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  background-size: 100%;
+}
+
+
+section h1
+{
+ 
+  font:800px 22px consolas;    
+  width:24ch;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:type 5s steps(13) infinite;
+  color: white;
+ 
+}
+@keyframes type
+{
+  0%{ width:0; } 
+}
